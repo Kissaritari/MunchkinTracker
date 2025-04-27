@@ -22,3 +22,61 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# .NET build artifacts
+**/bin/
+**/obj/
+
+# Visual Studio user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider/JetBrains
+.idea/
+*.sln.iml
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# VS Code workspace settings (already present, but keeping for clarity)
+# .vscode/*
+
+# DotCover
+*.dotCover
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored if using PackageReference
+**/packages/
+# NuGet v3's project.json files produces this folder in the build output
+**/.nuget/
+
+# Others
+*.dbmdl
+*.bak
+*.backup
+*.log
+
+# Local test results
+TestResults/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+
+# Publish results
+publish/
+
+# Windows image file caches
+Thumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk

@@ -1,0 +1,6 @@
+@MTServer_HostAddress = http://localhost:5105
+
+GET {{MTServer_HostAddress}}/
+Accept: application/json
+
+###
