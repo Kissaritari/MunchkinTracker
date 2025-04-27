@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MTServer.Entity;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,33 +9,46 @@ namespace MTServer.Controllers
     [ApiController]
     public class GameController : ControllerBase
     {
-        // GET: api/<GameController>
+        private readonly GameManager _gameManager;
+
+        public GameController(GameManager gameManager)
+        {
+            _gameManager = gameManager;
+        }
+
+        // GET api/game/
         [HttpGet]
-        public IEnumerable<string> Get()
+        public ActionResult<IEnumerable<Game>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return _gameManager.GetAllGames();
         }
 
-        // GET api/<GameController>/5
+        // GET api/game/{id}
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult GetGame(string id)
         {
-            return "value";
+            var game = _gameManager.GetGame(id);
+            if (game == null)
+            {
+                return NotFound();
+            }
+            return Ok(game);
         }
 
-        // POST api/<GameController>
+        // POST api/game
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void CreateGame([FromBody] NewGameDto newGameDto)
         {
+            _gameManager.CreateGame(newGameDto);
         }
 
-        // PUT api/<GameController>/5
+        // PUT api/game/{id}
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
         }
 
-        // DELETE api/<GameController>/5
+        // DELETE api/game/{id}
         [HttpDelete("{id}")]
         public void Delete(int id)
         {

@@ -2,19 +2,20 @@
 {
     public class Player
     {
-        public int Id { get; set; }
-        public required string Name { get; set; }
+        public string Id { get; set; }
+        public string Name { get; set; }
         public int Level { get; set; }
         public int Bonus { get; set; }
         public GenderEnum Gender { get; set; }
-
-        public Player(int id, string name, GenderEnum gender) 
+        public PlayerClassEnum PlayerClass { get; set;}
+        public Player(string id, string name, GenderEnum gender) 
         {
             Id = id;
             Name = name;
             Gender = gender;
             Level = 0;
             Bonus = 0;
+            PlayerClass = PlayerClassEnum.None;
         }
         public void Die()
         {
@@ -28,5 +29,13 @@
         Male = 1,
         Female = 2,
         Other = 3,
+    }
+    public enum PlayerClassEnum
+    {
+        None,
+        Warrior,
+        Wizard,
+        Thief,
+        Cleric
     }
 }

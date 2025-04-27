@@ -7,28 +7,36 @@
       "RelativeMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|solutionrelative:mtserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|d:\\projektit\\munchkintracker\\server\\mtserver\\mtserver\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|solutionrelative:mtserver\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|d:\\projektit\\munchkintracker\\server\\mtserver\\mtserver\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|solutionrelative:mtserver\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|d:\\projektit\\munchkintracker\\server\\mtserver\\mtserver\\services\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|solutionrelative:mtserver\\services\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|d:\\projektit\\munchkintracker\\server\\mtserver\\mtserver\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|solutionrelative:mtserver\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|d:\\projektit\\munchkintracker\\server\\mtserver\\mtserver\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|solutionrelative:mtserver\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|d:\\projektit\\munchkintracker\\server\\mtserver\\mtserver\\entity\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|solutionrelative:mtserver\\entity\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|d:\\projektit\\munchkintracker\\server\\mtserver\\mtserver\\dto\\newgamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|solutionrelative:mtserver\\dto\\newgamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|d:\\projektit\\munchkintracker\\server\\mtserver\\mtserver\\entity\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|solutionrelative:mtserver\\entity\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|d:\\projektit\\munchkintracker\\server\\mtserver\\mtserver\\dto\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|solutionrelative:mtserver\\dto\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|d:\\projektit\\munchkintracker\\server\\mtserver\\mtserver\\entity\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|solutionrelative:mtserver\\entity\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|d:\\projektit\\munchkintracker\\server\\mtserver\\mtserver\\entity\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|solutionrelative:mtserver\\entity\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|d:\\projektit\\munchkintracker\\server\\mtserver\\mtserver\\entity\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|d:\\projektit\\munchkintracker\\server\\mtserver\\mtserver\\mtserver.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|solutionrelative:mtserver\\mtserver.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|d:\\projektit\\munchkintracker\\server\\mtserver\\mtserver\\services\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|solutionrelative:mtserver\\services\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62919133-771C-4A73-89CA-DA48425FEF1D}|MTServer\\MTServer.csproj|d:\\projektit\\munchkintracker\\server\\mtserver\\mtserver\\mtserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -54,37 +58,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "PlayerDto.cs",
+              "DocumentMoniker": "D:\\Projektit\\MunchkinTracker\\Server\\MTServer\\MTServer\\Dto\\PlayerDto.cs",
+              "RelativeDocumentMoniker": "MTServer\\Dto\\PlayerDto.cs",
+              "ToolTip": "D:\\Projektit\\MunchkinTracker\\Server\\MTServer\\MTServer\\Dto\\PlayerDto.cs",
+              "RelativeToolTip": "MTServer\\Dto\\PlayerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T16:41:24.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\Projektit\\MunchkinTracker\\Server\\MTServer\\MTServer\\GameManager.cs",
               "RelativeDocumentMoniker": "MTServer\\GameManager.cs",
               "ToolTip": "D:\\Projektit\\MunchkinTracker\\Server\\MTServer\\MTServer\\GameManager.cs",
               "RelativeToolTip": "MTServer\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T22:33:10.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "GameController.cs",
               "DocumentMoniker": "D:\\Projektit\\MunchkinTracker\\Server\\MTServer\\MTServer\\Controllers\\GameController.cs",
               "RelativeDocumentMoniker": "MTServer\\Controllers\\GameController.cs",
               "ToolTip": "D:\\Projektit\\MunchkinTracker\\Server\\MTServer\\MTServer\\Controllers\\GameController.cs",
               "RelativeToolTip": "MTServer\\Controllers\\GameController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T22:30:10.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Combat.cs",
               "DocumentMoniker": "D:\\Projektit\\MunchkinTracker\\Server\\MTServer\\MTServer\\Entity\\Combat.cs",
               "RelativeDocumentMoniker": "MTServer\\Entity\\Combat.cs",
@@ -97,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Game.cs",
               "DocumentMoniker": "D:\\Projektit\\MunchkinTracker\\Server\\MTServer\\MTServer\\Entity\\Game.cs",
               "RelativeDocumentMoniker": "MTServer\\Entity\\Game.cs",
@@ -105,12 +122,11 @@
               "RelativeToolTip": "MTServer\\Entity\\Game.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T21:29:11.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T21:29:11.162Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "GameHub.cs",
               "DocumentMoniker": "D:\\Projektit\\MunchkinTracker\\Server\\MTServer\\MTServer\\Services\\GameHub.cs",
               "RelativeDocumentMoniker": "MTServer\\Services\\GameHub.cs",
@@ -123,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "MTServer.http",
               "DocumentMoniker": "D:\\Projektit\\MunchkinTracker\\Server\\MTServer\\MTServer\\MTServer.http",
               "RelativeDocumentMoniker": "MTServer\\MTServer.http",
@@ -136,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\Projektit\\MunchkinTracker\\Server\\MTServer\\MTServer\\Controllers\\PlayerController.cs",
               "RelativeDocumentMoniker": "MTServer\\Controllers\\PlayerController.cs",
@@ -149,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\Projektit\\MunchkinTracker\\Server\\MTServer\\MTServer\\Entity\\Player.cs",
               "RelativeDocumentMoniker": "MTServer\\Entity\\Player.cs",
@@ -157,31 +173,29 @@
               "RelativeToolTip": "MTServer\\Entity\\Player.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T18:47:04.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T18:47:04.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MTServer",
+              "DocumentIndex": 11,
+              "Title": "MTServer.csproj",
               "DocumentMoniker": "D:\\Projektit\\MunchkinTracker\\Server\\MTServer\\MTServer\\MTServer.csproj",
               "RelativeDocumentMoniker": "MTServer\\MTServer.csproj",
               "ToolTip": "D:\\Projektit\\MunchkinTracker\\Server\\MTServer\\MTServer\\MTServer.csproj",
               "RelativeToolTip": "MTServer\\MTServer.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-26T18:39:24.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T18:39:24.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "NewGameDto.cs",
               "DocumentMoniker": "D:\\Projektit\\MunchkinTracker\\Server\\MTServer\\MTServer\\Dto\\NewGameDto.cs",
               "RelativeDocumentMoniker": "MTServer\\Dto\\NewGameDto.cs",
               "ToolTip": "D:\\Projektit\\MunchkinTracker\\Server\\MTServer\\MTServer\\Dto\\NewGameDto.cs",
               "RelativeToolTip": "MTServer\\Dto\\NewGameDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T18:39:37.774Z",
               "EditorCaption": ""
@@ -194,7 +208,7 @@
               "RelativeDocumentMoniker": "MTServer\\Program.cs",
               "ToolTip": "D:\\Projektit\\MunchkinTracker\\Server\\MTServer\\MTServer\\Program.cs",
               "RelativeToolTip": "MTServer\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T18:26:17.109Z",
               "EditorCaption": ""

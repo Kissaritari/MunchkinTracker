@@ -17,6 +17,10 @@
         {
             Players.Add(player);
         }
+        public void RemovePlayer(Player player)
+        {
+            Players.Remove(player);
+        }
         public void StartGame()
         {
             IsGameStarted = true;
