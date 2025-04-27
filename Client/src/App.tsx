@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import PlayerCountSelector from './assets/PlayerCountSelector'
+import PlayerCountSelector from './components/PlayerCountSelector'
 
 // Style constants for easy reuse
 const BG_GRADIENT = "bg-gradient-to-br from-teal-200 via-amber-100 to-teal-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 min-h-screen flex flex-col items-center justify-center p-4"
