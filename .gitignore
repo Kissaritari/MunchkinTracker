@@ -69,6 +69,9 @@ TestResults/
 # Publish results
 publish/
 
+# Visual Studio .vs folder
+Server/MTServer/.vs/
+
 # Windows image file caches
 Thumbs.db
 
