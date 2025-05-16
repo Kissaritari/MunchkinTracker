@@ -12,6 +12,17 @@ export interface Player {
     level: number
     bonus: number
 }
+
+// PlayerDto type for API usage
+export interface PlayerDto {
+    GameId: string;
+    PlayerId: string;
+    PlayerName: string;
+    Gender: string;
+    Level: number;
+    Bonus: number;
+}
+
 export interface Enemy {
     level: number
     bonus: number
@@ -22,8 +33,9 @@ export interface Combat {
     Assistant: Player | null
 }
 export interface Game {
-    id: string
-    name: string
+    gameId: string
+    gameName: string
     players: Player[]
-    status: string
+    currentPlayerIndex: number
+    isGameStarted: boolean
 }

@@ -11,7 +11,7 @@ export const SELECT_INPUT_COLOR = "border-teal-300 dark:border-amber-300 bg-whit
 // Shape/layout styles
 export const BG_GRADIENT_SHAPE = "min-h-screen"
 export const ITEMS_CENTER = "flex flex-col items-center justify-center p-4"
-export const CARD_SHAPE = "w-full max-w-md rounded-2xl shadow-xl p-8 flex flex-col items-center gap-6 border"
+export const CARD_SHAPE = "w-full max-w-md rounded-2xl shadow-xl p-2 flex flex-col items-center gap-6 border"
 export const TITLE_SHAPE = "text-4xl font-extrabold drop-shadow mb-2 tracking-tight"
 export const PLAYER_LABEL_SHAPE = "font-semibold"
 export const FOOTER_SHAPE = "mt-8 text-xs"

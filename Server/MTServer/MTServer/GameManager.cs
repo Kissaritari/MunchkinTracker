@@ -1,16 +1,24 @@
-﻿using MTServer.Entity;
+﻿using Microsoft.AspNetCore.SignalR;
+using MTServer.Entity;
+using MTServer.Services;
 
 namespace MTServer
 {
     public class GameManager
     {
         private readonly Dictionary<string, Game> _games = [];
-
-        public Game CreateGame(NewGameDto dto)
+        private readonly IHubContext<GameHub> _hubContext;
+        public GameManager(IHubContext<GameHub> hubContext)
         {
-            var game = new Game(dto);
+            _hubContext = hubContext;
+        }
+        public Game CreateGame(string name)
+        {
+            var game = new Game(name);
         
             _games[game.GameId] = game;
+            _hubContext.Clients.All.SendAsync("GameCreated", game);
+
             return game;
         }
         public List<Game> GetAllGames()
@@ -26,16 +34,19 @@ namespace MTServer
         {
             _games.TryGetValue(gameId, out var game);
             game.AddPlayer(player);
+            _hubContext.Clients.Group(gameId).SendAsync("PlayerAdded", gameId, player);
         }
         public void RemovePlayer(string gameId, string playerId)
         {
 
             _games.TryGetValue(gameId, out var game);
             game.RemovePlayer(playerId);
+            _hubContext.Clients.Group(gameId).SendAsync("PlayerRemoved", gameId, playerId);
         }
         public void RemoveGame(string gameId)
         {
             _games.Remove(gameId);
+            _hubContext.Clients.All.SendAsync("GameRemoved", gameId);
         }
     }
 }

@@ -37,9 +37,9 @@ namespace MTServer.Controllers
 
         // POST api/game
         [HttpPost]
-        public void CreateGame([FromBody] NewGameDto newGameDto)
+        public void CreateGame([FromBody] string newGameName)
         {
-            _gameManager.CreateGame(newGameDto);
+            _gameManager.CreateGame(newGameName);
         }
 
         // PUT api/game/{id}

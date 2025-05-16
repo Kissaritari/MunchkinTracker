@@ -4,6 +4,14 @@ namespace MTServer.Services
 {
     public class GameHub : Hub
     {
-        // You can define methods here if needed, but it's not required for sending messages.
+        public async Task JoinGame(string gameId)
+        {
+            await Groups.AddToGroupAsync(Context.ConnectionId, gameId);
+        }
+
+        public async Task LeaveGame(string gameId)
+        {
+            await Groups.RemoveFromGroupAsync(Context.ConnectionId, gameId);
+        }
     }
 }

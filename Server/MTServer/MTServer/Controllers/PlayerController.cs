@@ -37,7 +37,7 @@ namespace MTServer.Controllers
         }
 
         // POST api/<PlayerController>
-        [HttpPost]
+        [HttpPost()]
         public void Post([FromBody] PlayerDto PlayerDto)
         {
             Enum.TryParse<GenderEnum>(PlayerDto.Gender, out var playerGender);
@@ -56,7 +56,10 @@ namespace MTServer.Controllers
                 _gameManager.RemovePlayer(gameId, id);
                 return NoContent();
             }
-
+            catch
+            {
+                return NotFound();
+            }
         }
     }
 }
