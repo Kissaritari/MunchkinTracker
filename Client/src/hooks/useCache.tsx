@@ -18,5 +18,10 @@ export function usePlayerIdCache(key: string = "playerId") {
     localStorage.setItem(key, id);
   };
 
-  return [playerId, setPlayerId] as const;
+  const removePlayerId = () => {
+    setPlayerIdState("");
+    localStorage.removeItem(key);
+  };
+
+  return [playerId, setPlayerId, removePlayerId] as const;
 }

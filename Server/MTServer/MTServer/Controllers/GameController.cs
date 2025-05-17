@@ -52,6 +52,15 @@ namespace MTServer.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            var game = _gameManager.GetGame(id.ToString());
+            if (game != null)
+            {
+                _gameManager.RemoveGame(game.GameId);
+            }
+            else
+            {
+                NotFound();
+            }
         }
     }
 }

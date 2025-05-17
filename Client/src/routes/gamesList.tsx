@@ -71,7 +71,7 @@ function GamesList() {
   const allGames = games.allGamesQuery.data || [];
   return (
     <div className="p-4 m-5 bg-amber-100/10 h-full flex flex-col gap-4">
-      <div>
+      <div className="flex flex-col gap-4 max-h-screen">
         <h1 className="text-2xl font-bold ">Games</h1>
         <div className="flex flex-col gap-2">
           <div className={GAME_CARD_STYLE}>
@@ -93,9 +93,11 @@ function GamesList() {
               </button>
             </div>
           </div>
-          {allGames.map((game) => (
-            <GameCard game={game} key={game.gameId} handleJoinGame={handleJoinGame} />
-          ))}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 py-2 auto-rows-max">
+            {allGames.map((game) => (
+              <GameCard game={game} key={game.gameId} handleJoinGame={handleJoinGame} />
+            ))}
+          </div>
         </div>
       </div>
       {/* Join Game Dialog */}

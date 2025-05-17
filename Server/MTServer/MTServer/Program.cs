@@ -1,4 +1,3 @@
-using MTServer;
 using MTServer.Services;
 
 var builder = WebApplication.CreateBuilder(args);

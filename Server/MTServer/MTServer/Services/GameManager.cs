@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore.SignalR;
 using MTServer.Entity;
-using MTServer.Services;
 
-namespace MTServer
+namespace MTServer.Services
 {
     public class GameManager
     {
@@ -21,6 +20,15 @@ namespace MTServer
 
             return game;
         }
+        public Game CreateGame(string name, int? maxLevel)
+        {
+            var game = new Game(name,maxLevel);
+
+            _games[game.GameId] = game;
+            _hubContext.Clients.All.SendAsync("GameCreated", game);
+
+            return game;
+        }
         public List<Game> GetAllGames()
         {
             return _games.Values.ToList();
@@ -34,7 +42,7 @@ namespace MTServer
         {
             _games.TryGetValue(gameId, out var game);
             game.AddPlayer(player);
-            _hubContext.Clients.Group(gameId).SendAsync("PlayerAdded", gameId, player);
+            _hubContext.Clients.All.SendAsync("PlayerAdded", gameId, player);
         }
         public void RemovePlayer(string gameId, string playerId)
         {

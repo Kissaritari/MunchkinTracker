@@ -7,11 +7,16 @@
         public List<Player> Players { get; set; } = new List<Player>();
         public int CurrentPlayerIndex { get; set; } = 0;
         public bool IsGameStarted { get; set; } = false;
-        public Game(string newGameName)
+        public int MaxLevel { get; set; };
+        public Game(string newGameName, int? maxLevel = 10)
         {
             GameId = Guid.NewGuid().ToString();
             GameName = newGameName;
             IsGameStarted = true;
+            if (maxLevel != null)
+            {
+                MaxLevel = (int)maxLevel;
+            }
         }
         public void AddPlayer(Player player)
         {
@@ -27,7 +32,7 @@
             IsGameStarted = true;
             CurrentPlayerIndex = 0;
         }
-        public void StopGame()
+        public void EndGame()
         {
             IsGameStarted = false;
         }

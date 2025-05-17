@@ -22,8 +22,11 @@ export const useGames = () => {
   // Mutation for creating a game
   const createGameMutation = useMutation({
     mutationFn: createGame,
-    onSuccess: () => {
+    onSuccess: (createdGame) => {
       queryClient.invalidateQueries({ queryKey: ['games'] });
+      if (createdGame?.gameId) {
+        queryClient.invalidateQueries({ queryKey: ['games', createdGame.gameId] });
+      }
     },
   });
 
