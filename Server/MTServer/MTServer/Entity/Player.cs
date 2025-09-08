@@ -7,21 +7,29 @@
         public int Level { get; set; }
         public int Bonus { get; set; }
         public GenderEnum Gender { get; set; }
+        public RaceEnum Race { get; set; }
         public PlayerClassEnum PlayerClass { get; set;}
         public Player(string id, string name, GenderEnum gender) 
         {
             Id = id;
             Name = name;
             Gender = gender;
-            Level = 0;
+            Level = 1;
             Bonus = 0;
             PlayerClass = PlayerClassEnum.None;
+            Race = RaceEnum.Human;
         }
         public void Die()
         {
-            Level = 0;
             Bonus = 0;
         }
+    }
+    public enum RaceEnum
+    {
+        Human = 0,
+        Elf = 1,
+        Dwarf = 2,
+        Halfling = 3,
     }
     public enum GenderEnum
     {

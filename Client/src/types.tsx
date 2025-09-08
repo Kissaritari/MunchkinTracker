@@ -1,3 +1,4 @@
+export type MunchkinRace = 'Human' | 'Elf' | 'Dwarf' | 'Halfling';
 export enum Gender {
     none = "none",
     male = 'male',
@@ -11,6 +12,8 @@ export interface Player {
     gender: Gender
     level: number
     bonus: number
+    class: MunchkinClass
+    race: MunchkinRace
 }
 
 // PlayerDto type for API usage
@@ -21,6 +24,7 @@ export interface PlayerDto {
     Gender: string;
     Level: number;
     Bonus: number;
+    Race: MunchkinRace;
 }
 
 export interface Enemy {
@@ -39,3 +43,5 @@ export interface Game {
     currentPlayerIndex: number
     isGameStarted: boolean
 }
+
+export type MunchkinClass = 'Warrior' | 'Wizard' | 'Thief' | 'Cleric';

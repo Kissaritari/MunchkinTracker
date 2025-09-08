@@ -40,6 +40,8 @@ export const usePlayers = () => {
     },
   });
 
+
+
   return {
     allPlayersQuery,
     playerByIdQuery,

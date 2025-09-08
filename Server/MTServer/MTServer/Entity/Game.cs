@@ -7,7 +7,7 @@
         public List<Player> Players { get; set; } = new List<Player>();
         public int CurrentPlayerIndex { get; set; } = 0;
         public bool IsGameStarted { get; set; } = false;
-        public int MaxLevel { get; set; };
+        public int MaxLevel { get; set; }
         public Game(string newGameName, int? maxLevel = 10)
         {
             GameId = Guid.NewGuid().ToString();

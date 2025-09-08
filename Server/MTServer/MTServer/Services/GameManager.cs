@@ -49,7 +49,7 @@ namespace MTServer.Services
 
             _games.TryGetValue(gameId, out var game);
             game.RemovePlayer(playerId);
-            _hubContext.Clients.Group(gameId).SendAsync("PlayerRemoved", gameId, playerId);
+            _hubContext.Clients.All.SendAsync("PlayerRemoved", gameId, playerId);
         }
         public void RemoveGame(string gameId)
         {

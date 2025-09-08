@@ -18,15 +18,20 @@ const GameCard = ({ game, handleJoinGame }: GameCardProps) => {
     >
       <h2 className="text-xl font-semibold border-b">{game.gameName}</h2>
       <p>Players: </p>
-      <div className="grid grid-cols-4 items-center p-4 border rounded-md ">
-        {game.players.map((player) => (
-          <div key={player.id}>
-            <span className="text-sm border px-2 py-1 rounded-md bg-amber-50/10">
-              {player.name}
-            </span>
-          </div>
-        ))}
-      </div>
+      {game.players.length === 0 && (
+        <div className="text-gray-500">No players yet</div>
+      )}
+      {game.players.length > 0 && (
+        <div className="grid grid-cols-4 items-center p-4 border rounded-md ">
+          {game.players.map((player) => (
+            <div key={player.id}>
+              <span className="text-sm border px-2 py-1 rounded-md bg-amber-50/10">
+                {player.name}
+              </span>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 };

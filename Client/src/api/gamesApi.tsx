@@ -13,3 +13,6 @@ export const getGameById = async (id: string): Promise<Game> => {
 export const createGame = async (name: string): Promise<Game> => {
   return ky.post(API_BASE, { json: name }).json();
 };
+export const removePlayer = async (gameId: string, playerId: string): Promise<void> => {
+  return ky.delete(`${API_BASE}/${gameId}/players/${playerId}`).json();
+}

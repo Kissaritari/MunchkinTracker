@@ -25,3 +25,29 @@ export function usePlayerIdCache(key: string = "playerId") {
 
   return [playerId, setPlayerId, removePlayerId] as const;
 }
+
+/**
+ * useGameIdCache - React hook to persist game ID in localStorage
+ * @param {string} key - The localStorage key to use (default: 'gameId')
+ * @returns {[string, (id: string) => void, () => void]} [gameId, setGameId, removeGameId]
+ */
+export function useGameIdCache(key: string = "gameId") {
+  const [gameId, setGameIdState] = useState<string>("");
+
+  useEffect(() => {
+    const stored = localStorage.getItem(key);
+    if (stored) setGameIdState(stored);
+  }, [key]);
+
+  const setGameId = (id: string) => {
+    setGameIdState(id);
+    localStorage.setItem(key, id);
+  };
+
+  const removeGameId = () => {
+    setGameIdState("");
+    localStorage.removeItem(key);
+  };
+
+  return [gameId, setGameId, removeGameId] as const;
+}
